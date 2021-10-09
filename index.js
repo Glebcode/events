@@ -40,7 +40,6 @@ box.forEach(function (item) {
           item.style.top = (event.pageY-offsetY) + 'px';
           item.style.left = (event.pageX-offsetX) + 'px';
           inDrag = false;
-          console.log(event.target);
         });
 });
 // redBox.addEventListener('dragstart', function(event){
