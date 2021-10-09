@@ -1,6 +1,6 @@
 body{
     background-color: cornsilk;
-    font-size: 1em;
+    /* font-size: 1em; */
 }
 .sqWrap{
     display: flex;
@@ -10,7 +10,7 @@ body{
     width: 8vw;
     height: 8vw;
     border-radius: 20%;
-    margin: 1em;
+    /* margin: 1em; */
 }
 .colorSq{
     z-index: 2;
@@ -29,7 +29,7 @@ body{
 }
 #boxPlace{
     position: relative;
-    top: 2em;
+    /* top: 2em; */
     display: flex;
 }
 .typeBox{
