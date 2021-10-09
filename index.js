@@ -15,6 +15,7 @@ box.forEach(function (item) {
     return item.addEventListener('dragstart', function(event){
         offsetX = event.offsetX;
         offsetY = event.offsetY;
+        // item.style.cursor = 'grabbing';
         console.log('offsetX'+'-'+offsetX, 'offsetY'+'-'+offsetY);
     }) 
 });
@@ -23,6 +24,7 @@ box.forEach(function (item) {
         return item.addEventListener('dragend', function(event){
           item.style.top = (event.pageY-offsetY) + 'px';
           item.style.left = (event.pageX-offsetX) + 'px';
+        //   item.style.cursor = 'grabbing';
           console.log('eventpageX'+'-'+event.pageX, 'eventpageY'+'-'+event.pageY);
           console.log('eventX'+'-'+item.style.left, 'eventY'+'-'+item.style.top);
       });
