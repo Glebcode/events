@@ -1,20 +1,42 @@
 body{
+    background-color: cornsilk;
+    font-size: 1em;
+}
+.sqWrap{
     display: flex;
 }
 .sq{
-    width: 100px;
-    height: 100px;
+    width: 8em;
+    height: 8em;
     border-radius: 20%;
+    margin: 1em;
+}
+.colorSq{
+    position: absolute;
+    z-index: 2;
 }
 #red{
     background-color: red;
 }
 #blue{
+    left: 10.5em;
     background-color: blue;
 }
 #green{
+    left: 20.5em;
     background-color: green;
 }
 #grey{
+    left: 30.5em;
     background-color: grey;
+}
+#boxPlace{
+    position: relative;
+    top: 10em;
+    display: flex;
+}
+.typeBox{
+    z-index: 1;
+    outline-style: groove;
+    background-color: rgb(209, 209, 209);
 }
