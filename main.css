@@ -6,22 +6,25 @@ body{
     display: flex;
 }
 .sq{
-    position: relative;
+    /* position: absolute; */
     width: 8vw;
     height: 8vw;
     border-radius: 20%;
-    /* margin: 1em; */
+    margin: 0.5em;
 }
 .colorSq{
     z-index: 2;
 }
 #red{
+    /* left: 14em; */
     background-color: red;
 }
 #blue{
+    /* left: 9.5em; */
     background-color: blue;
 }
 #green{
+    /* left: 5em; */
     background-color: green;
 }
 #grey{
@@ -33,7 +36,23 @@ body{
     display: flex;
 }
 .typeBox{
+    position: relative;
     z-index: 1;
     outline-style: groove;
     background-color: rgb(209, 209, 209);
+    top: 4.5em;
+    width: 8vw;
+    height: 8vw;
+    border-radius: 20%;
+    margin: 0.5em;
+}
+.hold{
+    border: solid #ccc 0.2em;
+}
+.hovered{
+    background-color: #f4f4f4;
+    border-style: dashed;
+}
+.invisible{
+    display: none;
 }
